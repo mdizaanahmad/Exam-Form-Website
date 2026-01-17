@@ -4,35 +4,172 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html form maker</title>
+    <link rel="shortcut icon" href="https://img.freepik.com/premium-vector/modern-simple-abstract-logo-design_969323-203.jpg?semt=ais_hybrid&w=740&q=80" type="image/x-icon">
 </head>
 <body>
     <h2>Registration</h2>
+
+    <!----------------------=-------------form body-----------=--------------------->
     <form>
-        <label>Full Name:</label><br>
-        <input type="text" name="fullname" placeholder="Enter your name"><br><br>
+
+        <label><b>Full Name:</b></label><br>
+            <input type="text" name="name" placeholder="Enter your name"><br><br>
         
 
-        <label>Email</label><br>
-        <input type="text" name="email" placeholder="Enter your email"><br><br>
+        <label><b>Email:</b></label><br>
+            <input type="text" name="email" placeholder="Enter your email"><br><br>
 
 
-        <label>Password</label><br>
-        <input type="password" name="password" placeholder="Enter your password"><br><br>
+        <label><b>Password:</b></label><br>
+            <input type="password" name="password" placeholder="Enter your password"><br><br>
 
-       
-        <label>Gender</label><br>
-        <input type="radio" name="Gender">
-        Male
-        <input type="radio" name="Gender">
-        Female
-        <input type="radio">
-        Other<br><br>
+        <label><b>Date of birth:</b></label><br>
+            <input type="date">   
+        <label><b>Father's Name:</b></label>
+            <input type="text" placeholder="enter fathers name">
+        <label><b>Mother's Name:</b></label>
+            <input type="text" placeholder="enter Mother name"><br><br>
+
+
+        <label><b>Address:-</b></label><br>
+            <input type="text" name="Address" placeholder="detailed address"><br><br>
+        
+        <label><b>State / Union Territory:</b></label><br>
+            <select>
+                <option value="ST"> State/ UT</option>
+     
+                <option value="AP">Andhra Pradesh</option>
+                <option value="AP">Arunachal Pradesh</option>
+                <option value="AS">Assam</option>
+                <option value="BI">Bihar</option>
+                <option value="CH">Chhattisgarh</option>
+                <option value="GO">Goa</option>
+                <option value="GU">Gujarat</option>
+                <option value="HA">Haryana</option>
+                <option value="HM">Himachal Pradesh</option>
+                <option value="JH">Jharkhand</option>
+                <option value="KA">Karnataka</option>
+                <option value="KE">Kerala</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="MA">Maharashtra</option>
+                <option value="MA">Manipur</option>
+                <option value="ME">Meghalaya</option>
+                <option value="MI">Mizoram</option>
+                <option value="NA">Nagaland</option>
+                <option value="OD">Odisha</option>
+                <option value="PU">Punjab</option>
+                <option value="RA">Rajasthan</option>
+                <option value="SI">Sikkim</option>
+                <option value="TN">Tamil Nadu</option>
+                <option value="TE">Telangana</option>
+                <option value="TR">Tripura</option>
+                <option value="UT">Uttar Pradesh</option>
+                <option value="UT">Uttarakhand</option>
+                <option value="WE">West Bengal</option>
+
+
+                <!--union teritary-->
+                <option value="AN">Andaman and Nicobar Islands</option>
+                <option value="CH">Chandigarh</option>
+                <option value="DN">Dadra and Nagar Haveli and Daman and Diu</option>
+                <option value="DE">Delhi</option>
+                <option value="JK">Jammu and Kashmir</option>
+                <option value="LA">Ladakh</option>
+                <option value="LA">Lakshadweep</option>
+                <option value="PU">Puducherry</option>
+            </select><br>
+
+        <label><b>City:</b></label><br>
+            <input type="text" name="city" placeholder="enter you city"><br>
+
+        <label><b>District:</b></label><br>
+            <input type="text" name="district" placeholder="enter you district"><br>
+
+        <label><b>Pincode:</b></label><br>
+            <input type="text" name="district" placeholder="enter you pincode"><br>
+        
+`
+        <label><b>Gender:</b></label><br>
+            <input type="radio" name="Gender">
+            Male
+            <input type="radio" name="Gender">
+            Female
+            <input type="radio">
+            Other<br><br>
 
         
-        <label>Skills</label><br>
-        <input type="checkbox">Html
-        <input type="checkbox">javascript
-        <input type="checkbox">css   
+        <label><b>Skills:</b></label><br>
+            <input type="checkbox">Html
+            <input type="checkbox">javascript
+            <input type="checkbox">css<br><br>
+
+    <!-----------------------------Eductional details---------------------------------->
+        <h2>Educational</h2>
+            <label><b>Class 10th</b></label><br>
+                <input type="text" name="class 10th" placeholder="enter your marks"><br>
+                    <select>
+                        <option value="SE">select</option>
+                        <option value="CB">CBSE</option>
+                        <option value="BS">BSEB</option>
+                        <option value="MU">MAULANA AZAD</option>
+                        <option value="WB">WSEB</option>
+                        <option value="IC">ICSE</option>
+                    </select><br>
+            <label><b>Name of school</b></label><br>
+                <input type="text" name="name of school" placeholder="enter school name"><br>
+            <label><b>Passing year</b></label><br>
+                <input type="date"><br><br><br><br>
+
+            <label><b>Class 12th</b></label><br>
+                <input type="text" name="class 10th" placeholder="enter your marks"><br>
+                    <select>
+                        <option value="SE">select</option>
+                        <option value="CB">CBSE</option>
+                        <option value="BS">BSEB</option>
+                        <option value="MU">MAULANA AZAD</option>
+                        <option value="WB">WSEB</option>
+                        <option value="IC">ICSE</option><br><br>
+                    </select><br>
+            <label><b>Name of school</b></label><br>
+                <input type="text" name="name of school" placeholder="enter school name"><br>
+            <label><b>Passing year</b></label><br>
+                <input type="date"><br><br>
+        <Label><b>Courses</b></Label><br>
+        <select>
+            <option value="SE">Select</option>
+            <option value="BT">BTech</option>
+            <option value="DI">Diploma</option>
+            <option value="BC">BCA</option>
+            <option value="MC">MCA</option>
+            <option value="BCO">B.COM</option>
+            <option value="BS">B.Sc</option>
+        </select>
+        <br><br>
+
+        <Label><b>year</b></Label><br>
+            <select>
+                <option>Select</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select><br><br>
+
+
+        <label><b>Internship:</b></label><br>
+            <textarea rows="4"cols="30"></textarea><br>
+        <label><b>Upload Image</b></label>
+            <input type="file" accept="image/*"><br><br>
+
+    <!--------------------------------------Conditions--------------------------->
+
+        <label><b>Term & Condition :</b></label><br>
+            <mark>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab similique doloribus corporis tenetur obcaecati nisi quo quis illum quaerat nostrum</mark>
+                <br><input type="checkbox"><br><br>
+
+    <!--------------------------------------Submit button----------------------->
+            <input type="submit" value="submit">
+        <input type="reset" value="reset">
 
     </form>
 
